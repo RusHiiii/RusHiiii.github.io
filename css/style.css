@@ -1303,6 +1303,12 @@ form textarea {
         .gauge{
           text-align: center !important; } }
       @media screen and (max-width: 990px) {
+        .weather-data, .my-network{
+          padding-top: 30px; } }
+      @media screen and (max-width: 990px) {
+        .forecast-header{
+          padding: 5px !important; } }
+      @media screen and (max-width: 990px) {
         .gauge > h3{
           width: auto !important; } }
     .forecast-container .forecast .forecast-header {
