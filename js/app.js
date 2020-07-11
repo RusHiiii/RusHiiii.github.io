@@ -27,7 +27,8 @@
 						center: [latitude,longitude],
 						zoom: 15,
 						gestureHandling: 'none',
-						zoomControl: false
+						zoomControl: false,
+						disableDefaultUI: false
 					}
 				}
 			});
