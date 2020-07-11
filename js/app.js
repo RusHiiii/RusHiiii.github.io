@@ -25,11 +25,14 @@
 				map:{
 					options:{
 						center: [latitude,longitude],
-						zoom: 15,
+						zoom: 11,
 						gestureHandling: 'none',
 						zoomControl: false,
 						disableDefaultUI: true
 					}
+				},
+				marker:{
+					latLng: [latitude,longitude],
 				}
 			});
 		}
