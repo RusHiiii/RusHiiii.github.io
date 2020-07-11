@@ -1306,7 +1306,7 @@ form textarea {
         .weather-data, .my-network{
           padding-top: 30px; } }
       @media screen and (max-width: 990px) {
-        .forecast-header{
+        .forecast-header .city{
           padding: 5px !important; } }
       @media screen and (max-width: 990px) {
         .gauge > h3{
