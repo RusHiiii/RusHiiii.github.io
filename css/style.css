@@ -1284,7 +1284,7 @@ form textarea {
           display: block;
           width: 100%; } }
       @media screen and (max-width: 990px) {
-        .forecast-container .forecast .forecast-content {
+        .forecast-container .forecast .city {
           padding: 50px 5px 10px !important; } }
       @media screen and (max-width: 990px) {
         .forecast-container .forecast .forecast-content .degree{
