@@ -28,7 +28,7 @@
 						zoom: 15,
 						gestureHandling: 'none',
 						zoomControl: false,
-						disableDefaultUI: false
+						disableDefaultUI: true
 					}
 				}
 			});
