@@ -264,7 +264,7 @@ form textarea {
   color: white; }
 
 .map {
-  height: 243px; }
+  height: 254px; }
 
 .container {
   margin-right: auto;
@@ -1307,7 +1307,8 @@ form textarea {
           padding-top: 30px; } }
       @media screen and (max-width: 990px) {
         .forecast-header .day-name{
-          padding: 5px !important; } }
+          padding: 0px !important;
+          font-size: 10px; } }
       @media screen and (max-width: 990px) {
         .gauge > h3{
           width: auto !important; } }
