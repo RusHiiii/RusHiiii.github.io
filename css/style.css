@@ -1387,7 +1387,7 @@ form textarea {
     color: white; }
 
 .other-sensor {
-  padding-bottom: 70px; }
+  padding-bottom: 70px !important; }
 
 .live-camera {
   margin-bottom: 30px; }
