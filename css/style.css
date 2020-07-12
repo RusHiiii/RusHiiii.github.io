@@ -1300,6 +1300,9 @@ form textarea {
         .section-title{
           text-align: center !important; } }
       @media screen and (max-width: 990px) {
+        .contact{
+          padding-top: 70px !important; } }
+      @media screen and (max-width: 990px) {
         .gauge{
           text-align: center !important; } }
       @media screen and (max-width: 990px) {
