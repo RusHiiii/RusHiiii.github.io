@@ -1386,6 +1386,9 @@ form textarea {
     -webkit-appearance: none;
     color: white; }
 
+.other-sensor {
+  padding-bottom: 70px; }
+
 .live-camera {
   margin-bottom: 30px; }
   .live-camera .live-camera-cover {
