@@ -1270,6 +1270,8 @@ form textarea {
       .forecast-container .forecast.today .degree .num, .forecast-container .forecast.today .degree .forecast-icon {
         display: inline-block;
         vertical-align: middle; }
+      .obs-content {
+        padding-top: 10px !important; }
       .forecast-container .forecast.today .degree .num {
         font-size: 90px;
         font-size: 6.4285714286rem;
@@ -1495,6 +1497,7 @@ form textarea {
 .home-temp {
   float:left;
   width:33%;
+  padding-bottom: 21px;
   display:table; }
 
 .home-temp .temp {
@@ -1539,6 +1542,7 @@ form textarea {
 .ephemeride {
   float:left;
   width:33%;
+  margin-bottom: 10px;
   display:table; }
 
 .sun-moon {
