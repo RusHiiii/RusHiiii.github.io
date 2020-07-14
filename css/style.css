@@ -1308,6 +1308,9 @@ form textarea {
         .gauge{
           text-align: center !important; } }
       @media screen and (max-width: 990px) {
+        .current-weather-data{
+          margin-top: 30px !important; } }
+      @media screen and (max-width: 990px) {
         .weather-data, .my-network{
           padding-top: 30px; } }
       @media screen and (max-width: 990px) {
@@ -1725,6 +1728,9 @@ form textarea {
       margin-right: 10px;
       vertical-align: middle; }
 
+.min-max td:last-child{
+  border-right: solid white 1px; }
+
 .contact-form [class*="col"] {
   padding: 0 5px; }
 .contact-form .row {
@@ -1743,6 +1749,35 @@ form textarea {
 .contact-form .text-right {
   text-align: right; }
 
+.table-obs {
+  border: solid white 1px; }
+
+.caption-obs {
+  text-align: left;
+  margin-bottom: 10px; }
+
+.table-obs-header {
+  border: solid white 1px;
+  padding: 5px; }
+
+.table-obs-first-data > td {
+  padding-top: 5px; }
+
+.table-obs-last-data > td {
+  padding-bottom: 5px; }
+
+.text-align-right {
+  text-align: right; }
+
+.current span {
+  margin-right: 20px; }
+
+.current strong {
+  margin-right: 20px; }
+
+td {
+  padding-left: 5px; !important;}
+
 .sidebar .widget {
   background: #262936;
   border-radius: 10px;
@@ -1755,26 +1790,24 @@ form textarea {
     font-weight: 300; }
   .sidebar .widget .arrow-list li {
     border: none; }
-  .sidebar .widget.top-rated {
+  .sidebar .widget.current-weather-data {
     padding: 0; }
-    .sidebar .widget.top-rated .widget-title {
+    .sidebar .widget.current-weather-data .widget-title {
       padding: 20px 20px 0; }
-    .sidebar .widget.top-rated ul {
+    .sidebar .widget.current-weather-data ul {
       list-style: none; }
-      .sidebar .widget.top-rated ul li {
+      .sidebar .widget.current-weather-data ul li {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         padding: 10px 20px; }
-        .sidebar .widget.top-rated ul li:last-child {
+        .sidebar .widget.current-weather-data ul li:last-child {
           border-bottom: none; }
-    .sidebar .widget.top-rated .entry-title {
+    .sidebar .widget.current-weather-data .entry-title {
       font-size: 14px;
       font-size: 1em;
       margin-bottom: 5px;
       font-weight: 300; }
-      .sidebar .widget.top-rated .entry-title a {
+      .sidebar .widget.current-weather-data .entry-title a {
         color: #bfc1c8; }
-    .sidebar .widget.top-rated .rating strong {
-      color: #009ad8; }
 
 /*
  * Footer Styles
