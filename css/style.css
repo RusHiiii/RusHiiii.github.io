@@ -317,9 +317,9 @@ form textarea {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
-
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: left; }
+.margin-auto {
+  margin: auto;
+}
 
 .col-xs-1 {
   width: 8.3333333333%; }
@@ -786,9 +786,7 @@ form textarea {
 
   .col-md-offset-12 {
     margin-left: 100%; } }
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left; }
+
 
   .col-lg-1 {
     width: 8.3333333333%; }
