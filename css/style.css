@@ -1209,6 +1209,22 @@ form textarea {
   background-size: cover;
   padding: 70px 0;
   min-height: 400px; }
+.fullwidth {
+  width: 100%; }
+.center-content {
+  display: table;
+  margin: 0 auto;
+  width: 53%; }
+.title-center {
+  text-align: center;
+  margin-bottom: 50px; }
+.text-center {
+  display: table;
+  height: 50px;
+  overflow: hidden; }
+.label-center {
+  display: table-cell;
+  vertical-align: middle; }
 .wi-wind {
   font-size: 18px !important; }
 .find-location {
