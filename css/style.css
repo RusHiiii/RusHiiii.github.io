@@ -138,6 +138,60 @@ svg:not(:root) {
 figure {
   margin: 0; }
 
+.select-form {
+    padding: 5px 5px 5px 5px !important;
+}
+
+.no-padding-left {
+    padding-left: 0 !important;
+}
+
+.no-padding-right {
+    padding-right: 0 !important;
+}
+
+.filter-right {
+    float: right;
+}
+
+.edit-btn {
+    left: 50% !important;
+}
+
+.btn-height {
+    height: 50px;
+}
+
+.btn-info {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 15%;
+}
+
+.btn-delete {
+    background: #d80000 !important;
+}
+
+.btn-edit {
+    background: #d88200 !important;
+}
+
+.list {
+    min-height: 100px !important;
+}
+
+.pagination {
+    padding: 30px 0;
+}
+
+.photo-text {
+ margin-bottom: 50px;
+}
+
+.photo-access {
+    text-align: center;
+}
+
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -1668,7 +1722,6 @@ form textarea {
 
 .photo {
   position: relative;
-  padding-left: 50%;
   min-height: 190px;
   border-radius: 10px;
   overflow: hidden;
