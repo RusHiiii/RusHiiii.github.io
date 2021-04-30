@@ -1433,6 +1433,9 @@ form textarea {
     padding: 10px;
     vertical-align: middle; }
 
+  .select-menu:after{
+      background: none !important;
+  }
 .select.control {
   background: #262936;
   border-radius: 40px;
